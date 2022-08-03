@@ -4,47 +4,30 @@
 //
 //  Created by Scholar on 8/1/22.
 //
-import SwiftUI
+import UIKit
 //import Charts
 
 class ViewController: UIViewController {
-//    struct barShape: Identifiable {
-//
-//        var type: String
-//        var count: Double
-//        var id = UUID()
-//    }
-//
-//    var data: [barShape] = [
-//        .init(type: "date", count: 4),
-//        .init(type: "date1", count: 5),
-//        .init(type: "date2", count: 1)
-//    ]
-//
-//    struct barChart: View {
-//        var body: some View {
-//           Chart {
-//           BarMark(
-//                x: .value("Shape Type", data[0].type),
-//                y: .value("Total Count", data[0].count)
-//                )
-//            BarMark(
-//                x: .value("Shape Type", data[1].type),
-//                y: .value("Total Count", data[1].count)
-//            )
-//            BarMark(
-//                x: .value("Shape Type", data[2].type),
-//                y: .value("Total Count", data[2].count)
-//                )
-//            }
-//
-//        }
-//    }
 
+    @IBAction func popButton(_ sender: Any) {
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
-        
     }
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+    }
+    
+    @IBAction func showPopUp(_ sender: Any) {
+        let alert = UIAlertController(title: "If I was your father I would have left a long time ago", message: "This is a pop up for hoomans", preferredStyle: .alert)
+    }
+//    @IBAction func showPopUp(_sender: Any){
+//
+//
+//
+//    }
+    
 }
     
 

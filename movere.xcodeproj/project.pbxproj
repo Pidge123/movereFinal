@@ -17,6 +17,8 @@
 		BD3990372898628A003674B3 /* movereTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3990362898628A003674B3 /* movereTests.swift */; };
 		BD3990412898628A003674B3 /* movereUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3990402898628A003674B3 /* movereUITests.swift */; };
 		BD3990432898628A003674B3 /* movereUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3990422898628A003674B3 /* movereUITestsLaunchTests.swift */; };
+		BD4DCA5D289ACF1F00611C6E /* GoalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4DCA5C289ACF1F00611C6E /* GoalsViewController.swift */; };
+		BD4DCA61289AE56D00611C6E /* OpeningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4DCA60289AE56D00611C6E /* OpeningViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		BD39903C2898628A003674B3 /* movereUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = movereUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD3990402898628A003674B3 /* movereUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movereUITests.swift; sourceTree = "<group>"; };
 		BD3990422898628A003674B3 /* movereUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movereUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BD4DCA5C289ACF1F00611C6E /* GoalsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsViewController.swift; sourceTree = "<group>"; };
+		BD4DCA60289AE56D00611C6E /* OpeningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpeningViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,10 +109,12 @@
 				BD39901E28986289003674B3 /* SceneDelegate.swift */,
 				BD39902028986289003674B3 /* ViewController.swift */,
 				BD39902228986289003674B3 /* Main.storyboard */,
+				BD4DCA5C289ACF1F00611C6E /* GoalsViewController.swift */,
 				BD39902A2898628A003674B3 /* LaunchScreen.storyboard */,
 				BD3990282898628A003674B3 /* Assets.xcassets */,
 				BD39902D2898628A003674B3 /* Info.plist */,
 				BD39902528986289003674B3 /* movere.xcdatamodeld */,
+				BD4DCA60289AE56D00611C6E /* OpeningViewController.swift */,
 			);
 			path = movere;
 			sourceTree = "<group>";
@@ -262,9 +268,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD39902128986289003674B3 /* ViewController.swift in Sources */,
+				BD4DCA61289AE56D00611C6E /* OpeningViewController.swift in Sources */,
 				BD39902728986289003674B3 /* movere.xcdatamodeld in Sources */,
 				BD39901D28986289003674B3 /* AppDelegate.swift in Sources */,
 				BD39901F28986289003674B3 /* SceneDelegate.swift in Sources */,
+				BD4DCA5D289ACF1F00611C6E /* GoalsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
