@@ -27,32 +27,32 @@ class HistoryTableViewController: UITableViewController {
         first.distance = 0.5
         
         let second = HistoryLog()
-        second.time = "2 hour"
+        second.time = "2 hours"
         second.description = "A run"
         second.distance = 1
         
         let third = HistoryLog()
-        third.time = "3 hour"
+        third.time = "3 hours"
         third.description = "A run"
         third.distance = 2
         
         let fourth = HistoryLog()
-        fourth.time = "4 hour"
+        fourth.time = "4 hours"
         fourth.description = "A run"
         fourth.distance = 1
         
         let fifth = HistoryLog()
-        fifth.time = "5 hour"
+        fifth.time = "5 hours"
         fifth.description = "A run"
         fifth.distance = 3
         
         let sixth = HistoryLog()
-        sixth.time = "6 hour"
+        sixth.time = "6 hours"
         sixth.description = "A run"
         sixth.distance = 2
         
         let seventh = HistoryLog()
-        seventh.time = "7 hour"
+        seventh.time = "7 hours"
         seventh.description = "A run"
         seventh.distance = 1
         
@@ -79,7 +79,7 @@ class HistoryTableViewController: UITableViewController {
         
         let historyLog = historyLogs[indexPath.row]
         
-        cell.textLabel?.text = "\(historyLog.description) --> \(historyLog.distance) in \(historyLog.time)"
+        cell.textLabel?.text = "\(historyLog.description) lasted \(historyLog.time). You ran \(historyLog.distance) miles."
 
         return cell
     }
