@@ -8,6 +8,7 @@
 import UIKit
 
 class OpeningViewController: UIViewController {
+    @IBOutlet weak var homeButtonOutlet: UIButton!
     @IBOutlet weak var nameEntered: UITextField!
     @IBOutlet weak var textRevealed: UILabel!
     @IBOutlet weak var imageRevealed: UIImageView!
@@ -20,6 +21,7 @@ class OpeningViewController: UIViewController {
         imageRevealed.isHidden = true
         otherTextRvealed.isHidden = true
         theOtherTextrevealed.isHidden = true
+        homeButtonOutlet.isHidden = true
         
     }
     
@@ -33,6 +35,8 @@ class OpeningViewController: UIViewController {
             imageRevealed.isHidden = false
             otherTextRvealed.isHidden = false
             theOtherTextrevealed.isHidden = false }
+        
+        homeButtonOutlet.isHidden = false
 
     }
     

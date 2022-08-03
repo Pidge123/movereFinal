@@ -19,6 +19,8 @@
 		BD3990432898628A003674B3 /* movereUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3990422898628A003674B3 /* movereUITestsLaunchTests.swift */; };
 		BD4DCA5D289ACF1F00611C6E /* GoalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4DCA5C289ACF1F00611C6E /* GoalsViewController.swift */; };
 		BD4DCA61289AE56D00611C6E /* OpeningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4DCA60289AE56D00611C6E /* OpeningViewController.swift */; };
+		BD4DCA63289AF49E00611C6E /* HistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4DCA62289AF49E00611C6E /* HistoryTableViewController.swift */; };
+		BD4DCA65289AF4F700611C6E /* HistoryLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4DCA64289AF4F700611C6E /* HistoryLog.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		BD3990422898628A003674B3 /* movereUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movereUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		BD4DCA5C289ACF1F00611C6E /* GoalsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsViewController.swift; sourceTree = "<group>"; };
 		BD4DCA60289AE56D00611C6E /* OpeningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpeningViewController.swift; sourceTree = "<group>"; };
+		BD4DCA62289AF49E00611C6E /* HistoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewController.swift; sourceTree = "<group>"; };
+		BD4DCA64289AF4F700611C6E /* HistoryLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryLog.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,13 +112,15 @@
 				BD39901C28986289003674B3 /* AppDelegate.swift */,
 				BD39901E28986289003674B3 /* SceneDelegate.swift */,
 				BD39902028986289003674B3 /* ViewController.swift */,
-				BD39902228986289003674B3 /* Main.storyboard */,
+				BD4DCA60289AE56D00611C6E /* OpeningViewController.swift */,
 				BD4DCA5C289ACF1F00611C6E /* GoalsViewController.swift */,
+				BD4DCA62289AF49E00611C6E /* HistoryTableViewController.swift */,
+				BD4DCA64289AF4F700611C6E /* HistoryLog.swift */,
+				BD39902228986289003674B3 /* Main.storyboard */,
 				BD39902A2898628A003674B3 /* LaunchScreen.storyboard */,
 				BD3990282898628A003674B3 /* Assets.xcassets */,
 				BD39902D2898628A003674B3 /* Info.plist */,
 				BD39902528986289003674B3 /* movere.xcdatamodeld */,
-				BD4DCA60289AE56D00611C6E /* OpeningViewController.swift */,
 			);
 			path = movere;
 			sourceTree = "<group>";
@@ -271,8 +277,10 @@
 				BD4DCA61289AE56D00611C6E /* OpeningViewController.swift in Sources */,
 				BD39902728986289003674B3 /* movere.xcdatamodeld in Sources */,
 				BD39901D28986289003674B3 /* AppDelegate.swift in Sources */,
+				BD4DCA63289AF49E00611C6E /* HistoryTableViewController.swift in Sources */,
 				BD39901F28986289003674B3 /* SceneDelegate.swift in Sources */,
 				BD4DCA5D289ACF1F00611C6E /* GoalsViewController.swift in Sources */,
+				BD4DCA65289AF4F700611C6E /* HistoryLog.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

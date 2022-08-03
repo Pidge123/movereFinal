@@ -48,7 +48,7 @@
                                 <attributedString key="attributedText">
                                     <fragment content="Goal">
                                         <attributes>
-                                            <font key="NSFont" size="36" name="YuKyo-Medium"/>
+                                            <font key="NSFont" size="36" name="Rockwell-Bold"/>
                                             <font key="NSOriginalFont" size="36" name="YuKyo-Medium"/>
                                         </attributes>
                                     </fragment>
@@ -56,18 +56,18 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xe3-Ya-hXq">
-                                <rect key="frame" x="337" y="354" width="33" height="31"/>
+                                <rect key="frame" x="332" y="355" width="44" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" title="+"/>
+                                <buttonConfiguration key="configuration" style="tinted" image="plus" catalog="system" title=""/>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FDN-V3-GCa">
-                                <rect key="frame" x="32" y="533" width="156" height="71"/>
+                                <rect key="frame" x="32" y="533" width="167" height="71"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="History (bruh)">
+                                    <fragment content="History">
                                         <attributes>
-                                            <font key="NSFont" size="20" name="YuKyo-Bold"/>
+                                            <font key="NSFont" size="36" name="Rockwell-Bold"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -75,20 +75,54 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Htd-BA-xJ8">
-                                <rect key="frame" x="337" y="553" width="33" height="31"/>
+                                <rect key="frame" x="332" y="554" width="44" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" title="+"/>
+                                <buttonConfiguration key="configuration" style="tinted" image="plus" catalog="system" title=""/>
+                                <connections>
+                                    <segue destination="nrP-J6-kOs" kind="show" id="m8Z-Fa-guo"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V6f-CK-FCj">
-                                <rect key="frame" x="173" y="140" width="121" height="65"/>
+                                <rect key="frame" x="163" y="143" width="141" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain">
                                     <attributedString key="attributedTitle">
-                                        <fragment content="Tap for Motivation!">
+                                        <fragment content="Tap">
                                             <attributes>
-                                                <font key="NSFont" size="18" name="Helvetica-Bold"/>
+                                                <font key="NSFont" size="18" name="Times-Bold"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                        <fragment content=" ">
+                                            <attributes>
+                                                <font key="NSFont" size="18" name="RaananaBold"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                        <fragment content="for">
+                                            <attributes>
+                                                <font key="NSFont" size="18" name="Times-Bold"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                        <fragment content=" ">
+                                            <attributes>
+                                                <font key="NSFont" size="18" name="RaananaBold"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                        <fragment content="Motivation">
+                                            <attributes>
+                                                <font key="NSFont" size="18" name="Times-Bold"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                        <fragment content="!">
+                                            <attributes>
+                                                <font key="NSFont" size="18" name="RaananaBold"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
@@ -113,6 +147,37 @@
             </objects>
             <point key="canvasLocation" x="-1294.2028985507247" y="2507.8125"/>
         </scene>
+        <!--History-->
+        <scene sceneID="df6-E8-dqV">
+            <objects>
+                <tableViewController id="qFT-8Z-2FT" customClass="HistoryTableViewController" customModule="movere" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="LEm-vA-DBo">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="reuseIdentifier" id="4gP-9A-qt2">
+                                <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="4gP-9A-qt2" id="rUP-ra-OmH">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="qFT-8Z-2FT" id="w7h-6w-7Gf"/>
+                            <outlet property="delegate" destination="qFT-8Z-2FT" id="mfc-0g-awH"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="History" id="9bB-mr-Ifi">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="gYT-7H-Bcq"/>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="avp-Er-2xP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-584" y="3327"/>
+        </scene>
         <!--Opening View Controller-->
         <scene sceneID="iHL-aD-vCH">
             <objects>
@@ -125,15 +190,16 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="roundedRect" placeholder="Write your name" minimumFontSize="17" background="download-1" translatesAutoresizingMaskIntoConstraints="NO" id="VZT-mj-Oyn">
-                                <rect key="frame" x="190" y="84" width="151" height="66"/>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="roundedRect" minimumFontSize="17" background="download-1" translatesAutoresizingMaskIntoConstraints="NO" id="VZT-mj-Oyn">
+                                <rect key="frame" x="208" y="77" width="166" height="66"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemMintColor"/>
+                                <color key="backgroundColor" red="0.55207037137876735" green="0.68929529671717171" blue="0.5180898908751399" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="tintColor" systemColor="systemBlueColor"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Write Name Here">
                                         <attributes>
-                                            <font key="NSFont" metaFont="system" size="20"/>
+                                            <color key="NSColor" red="0.96730981691919193" green="0.96730981691919193" blue="0.96730981691919193" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="20" name="TimesNewRomanPSMT"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -150,7 +216,7 @@
                                 <attributedString key="attributedText">
                                     <fragment content="Hello,">
                                         <attributes>
-                                            <font key="NSFont" size="40" name="YuKyo_Yoko-Medium"/>
+                                            <font key="NSFont" size="40" name="Rockwell-Regular"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -158,14 +224,16 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OL0-VY-wjb">
-                                <rect key="frame" x="176" y="216" width="62" height="35"/>
+                                <rect key="frame" x="167" y="216" width="80" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.55294120309999995" green="0.69019609689999994" blue="0.5176470876" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled">
                                     <attributedString key="attributedTitle">
                                         <fragment content="Next">
                                             <attributes>
-                                                <font key="NSFont" size="18" name="YuKyo-Bold"/>
+                                                <font key="NSFont" size="18" name="TimesNewRomanPSMT"/>
                                                 <font key="NSOriginalFont" size="18" name="YuKyo-Bold"/>
                                             </attributes>
                                         </fragment>
@@ -178,13 +246,13 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FvW-kJ-l7k">
-                                <rect key="frame" x="14" y="314" width="387" height="91"/>
+                                <rect key="frame" x="14" y="299" width="387" height="91"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Meet Diablo, your motivational ducky partner to accompany you during your athletic journey. ">
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                            <font key="NSFont" size="20" name="YuKyo-Bold"/>
+                                            <font key="NSFont" size="20" name="Rockwell-Regular"/>
                                             <font key="NSOriginalFont" size="20" name="YuKyo-Bold"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="4" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
@@ -192,6 +260,10 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="untitled36_20220802141554__1_-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="Id1-0b-cyw">
+                                <rect key="frame" x="24" y="362" width="367" height="262"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N7A-II-h9V">
                                 <rect key="frame" x="24" y="591" width="367" height="123"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -199,7 +271,7 @@
                                     <fragment content="Diablo's motivation might be different from what you are exposed to.">
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                            <font key="NSFont" size="20" name="YuKyo-Bold"/>
+                                            <font key="NSFont" size="20" name="Rockwell-Regular"/>
                                             <font key="NSOriginalFont" size="20" name="YuKyo-Bold"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="4" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
@@ -208,13 +280,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N3Z-v3-v9i">
-                                <rect key="frame" x="30" y="692" width="364" height="59"/>
+                                <rect key="frame" x="25" y="707" width="364" height="59"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment content="All of Diablo's lines are meant for motivational purposes only.">
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                            <font key="NSFont" size="18" name="YuKyo-Bold"/>
+                                            <font key="NSFont" size="18" name="Rockwell-Regular"/>
                                             <font key="NSOriginalFont" size="20" name="YuKyo-Bold"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="4" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
@@ -223,35 +295,35 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gTu-Uo-0ck">
-                                <rect key="frame" x="168" y="795" width="79" height="48"/>
+                                <rect key="frame" x="167" y="793" width="79" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.55103927080000004" green="0.76871567959999998" blue="0.61030914920000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled">
                                     <attributedString key="attributedTitle">
                                         <fragment content="Home">
                                             <attributes>
-                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                                <font key="NSFont" size="18" name="Helvetica"/>
+                                                <color key="NSColor" red="0.96730981691919193" green="0.96730981691919193" blue="0.96730981691919193" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <font key="NSFont" size="18" name="Times-Roman"/>
                                                 <font key="NSOriginalFont" size="12" name="Helvetica"/>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
-                                    <color key="baseForegroundColor" systemColor="systemIndigoColor"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" red="0.55294120309999995" green="0.69019609689999994" blue="0.5176470876" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="YdY-vj-4M2" kind="presentation" modalPresentationStyle="fullScreen" id="AMI-ck-l4a"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="untitled36_20220802141554__1_-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="Id1-0b-cyw">
-                                <rect key="frame" x="24" y="379" width="367" height="262"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="keQ-bw-QOh"/>
                         <color key="backgroundColor" systemColor="systemTealColor"/>
                         <color key="tintColor" systemColor="systemMintColor"/>
                     </view>
                     <connections>
+                        <outlet property="homeButtonOutlet" destination="gTu-Uo-0ck" id="UpM-Zc-9ou"/>
                         <outlet property="imageRevealed" destination="Id1-0b-cyw" id="6EJ-Vh-nhC"/>
                         <outlet property="nameEntered" destination="VZT-mj-Oyn" id="Pve-cG-XIz"/>
                         <outlet property="otherTextRvealed" destination="N7A-II-h9V" id="mls-xb-g3D"/>
@@ -312,7 +384,7 @@
                                 <attributedString key="attributedText">
                                     <fragment content="View Progress">
                                         <attributes>
-                                            <font key="NSFont" size="33" name="YuKyo-Bold"/>
+                                            <font key="NSFont" size="33" name="Rockwell-Bold"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -332,6 +404,25 @@
             </objects>
             <point key="canvasLocation" x="-584.05797101449275" y="2507.8125"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="dcY-G5-ZKE">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="nrP-J6-kOs" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="RpQ-gQ-2c7"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="BdC-oE-EyQ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="qFT-8Z-2FT" kind="relationship" relationship="rootViewController" id="IdU-7D-8Qv"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="svw-AV-E4g" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1294" y="3327"/>
+        </scene>
     </scenes>
     <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
     <resources>
@@ -339,6 +430,7 @@
         <image name="chart.xyaxis.line" catalog="system" width="128" height="101"/>
         <image name="download-1" width="286" height="176"/>
         <image name="image" width="349" height="280"/>
+        <image name="plus" catalog="system" width="128" height="113"/>
         <image name="text.badge.plus" catalog="system" width="128" height="109"/>
         <image name="untitled36_20220802141554__1_-removebg-preview" width="433" height="577"/>
         <systemColor name="labelColor">
@@ -361,9 +453,6 @@
         </systemColor>
         <systemColor name="systemGreenColor">
             <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemIndigoColor">
-            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemMintColor">
             <color red="0.0" green="0.7803921568627451" blue="0.74509803921568629" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
