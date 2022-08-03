@@ -27,11 +27,37 @@ class HistoryTableViewController: UITableViewController {
         first.distance = 0.5
         
         let second = HistoryLog()
-        second.time = "1 hour"
+        second.time = "2 hour"
         second.description = "A run"
-        second.distance = 0.5
+        second.distance = 1
         
-        return [first, second]
+        let third = HistoryLog()
+        third.time = "3 hour"
+        third.description = "A run"
+        third.distance = 2
+        
+        let fourth = HistoryLog()
+        fourth.time = "4 hour"
+        fourth.description = "A run"
+        fourth.distance = 1
+        
+        let fifth = HistoryLog()
+        fifth.time = "5 hour"
+        fifth.description = "A run"
+        fifth.distance = 3
+        
+        let sixth = HistoryLog()
+        sixth.time = "6 hour"
+        sixth.description = "A run"
+        sixth.distance = 2
+        
+        let seventh = HistoryLog()
+        seventh.time = "7 hour"
+        seventh.description = "A run"
+        seventh.distance = 1
+        
+        
+        return [first, second, third, fourth, fifth, sixth, seventh]
     }
     // MARK: - Table view data source
 
