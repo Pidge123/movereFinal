@@ -30,7 +30,11 @@ class GoalsViewController: UIViewController {
 //        let aQuote = messages[arc4random]
         
         
-        let alert = UIAlertController(title: "Really? Another bag of chips?", message: "Motivate #1", preferredStyle: .alert)
+        var randomIndex = Int.random(in: 0..<motivation.count)
+        var currentMotivation = motivation[randomIndex]
+        
+        
+        let alert = UIAlertController(title: currentMotivation, message: "Motivate #\(randomIndex + 1)", preferredStyle: .alert)
         let  okayAction = UIAlertAction(title: "Okay", style: .default) { (action)in
             print(action)
             

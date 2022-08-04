@@ -21,6 +21,7 @@
 		BD4DCA61289AE56D00611C6E /* OpeningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4DCA60289AE56D00611C6E /* OpeningViewController.swift */; };
 		BD4DCA63289AF49E00611C6E /* HistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4DCA62289AF49E00611C6E /* HistoryTableViewController.swift */; };
 		BD4DCA65289AF4F700611C6E /* HistoryLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4DCA64289AF4F700611C6E /* HistoryLog.swift */; };
+		BD4DCA67289C043900611C6E /* globalVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4DCA66289C043900611C6E /* globalVariables.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		BD4DCA60289AE56D00611C6E /* OpeningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpeningViewController.swift; sourceTree = "<group>"; };
 		BD4DCA62289AF49E00611C6E /* HistoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewController.swift; sourceTree = "<group>"; };
 		BD4DCA64289AF4F700611C6E /* HistoryLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryLog.swift; sourceTree = "<group>"; };
+		BD4DCA66289C043900611C6E /* globalVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = globalVariables.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 				BD39902028986289003674B3 /* ViewController.swift */,
 				BD4DCA60289AE56D00611C6E /* OpeningViewController.swift */,
 				BD4DCA5C289ACF1F00611C6E /* GoalsViewController.swift */,
+				BD4DCA66289C043900611C6E /* globalVariables.swift */,
 				BD4DCA62289AF49E00611C6E /* HistoryTableViewController.swift */,
 				BD4DCA64289AF4F700611C6E /* HistoryLog.swift */,
 				BD39902228986289003674B3 /* Main.storyboard */,
@@ -276,6 +279,7 @@
 				BD39902128986289003674B3 /* ViewController.swift in Sources */,
 				BD4DCA61289AE56D00611C6E /* OpeningViewController.swift in Sources */,
 				BD39902728986289003674B3 /* movere.xcdatamodeld in Sources */,
+				BD4DCA67289C043900611C6E /* globalVariables.swift in Sources */,
 				BD39901D28986289003674B3 /* AppDelegate.swift in Sources */,
 				BD4DCA63289AF49E00611C6E /* HistoryTableViewController.swift in Sources */,
 				BD39901F28986289003674B3 /* SceneDelegate.swift in Sources */,
