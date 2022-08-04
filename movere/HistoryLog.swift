@@ -11,4 +11,5 @@ class HistoryLog {
     var time = " "
     var description = ""
     var distance = 0.0
+    var date = " "
 }

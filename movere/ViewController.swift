@@ -20,7 +20,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func showPopUp(_ sender: Any) {
-        let alert = UIAlertController(title: "If I was your father I would have left a long time ago", message: "This is a pop up for hoomans", preferredStyle: .alert)
+        let alert = UIAlertController(title: "Really? Another bag of chips?", message: "Motivate #1", preferredStyle: .alert)
     }
 //    @IBAction func showPopUp(_sender: Any){
 //

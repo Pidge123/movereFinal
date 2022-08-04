@@ -19,7 +19,18 @@ class GoalsViewController: UIViewController {
 
 
     @IBAction func showPopUp(_ sender: Any) {
-        let alert = UIAlertController(title: "If I was your father I would have left a long time ago", message: "This is a pop up for hoomans", preferredStyle: .alert)
+//        let messages = [
+//          "Now is the time for all good men to come to the aid of their country",
+//          "Vini, vidi, vichi",
+//          "I regret that I have but one life to give for my country",
+//          "Illegitimi non carborundum"
+//          ]
+//
+//        let index = arc4random_uniform(UInt32(messages.count))
+//        let aQuote = messages[arc4random]
+        
+        
+        let alert = UIAlertController(title: "Really? Another bag of chips?", message: "Motivate #1", preferredStyle: .alert)
         let  okayAction = UIAlertAction(title: "Okay", style: .default) { (action)in
             print(action)
             

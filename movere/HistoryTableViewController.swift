@@ -17,47 +17,54 @@ class HistoryTableViewController: UITableViewController {
         super.viewDidLoad()
         
         historyLogs = createHistoryLogs()
+        
+//        backgroundImage.contentMode = .ScaleAspectFill
+//        tableView.backgroundView = backgroundImage
     }
     
     
     func createHistoryLogs() -> [HistoryLog] {
         let first = HistoryLog()
-        first.time = "1 hour"
-        first.description = "A run"
+        first.date = "July 29th's"
+        first.time = "0.5 hours"
+        first.description = "run"
         first.distance = 0.5
         
         let second = HistoryLog()
-        second.time = "2 hours"
-        second.description = "A run"
+        second.date = "July 30th's"
+        second.time = "1 hour"
+        second.description = "run"
         second.distance = 1
         
         let third = HistoryLog()
-        third.time = "3 hours"
-        third.description = "A run"
-        third.distance = 2
+        third.date = "August 1st's"
+        third.time = "1.5 hours"
+        third.description = "run"
+        third.distance = 2.1
         
         let fourth = HistoryLog()
-        fourth.time = "4 hours"
-        fourth.description = "A run"
-        fourth.distance = 1
+        fourth.date = "August 3rd's"
+        fourth.time = "2 hours"
+        fourth.description = "run"
+        fourth.distance = 2.25
         
-        let fifth = HistoryLog()
-        fifth.time = "5 hours"
-        fifth.description = "A run"
-        fifth.distance = 3
+//        let fifth = HistoryLog()
+//        fifth.time = "5 hours"
+//        fifth.description = "A run"
+//        fifth.distance = 3
+//
+//        let sixth = HistoryLog()
+//        sixth.time = "6 hours"
+//        sixth.description = "A run"
+//        sixth.distance = 2
+//
+//        let seventh = HistoryLog()
+//        seventh.time = "7 hours"
+//        seventh.description = "A run"
+//        seventh.distance = 1
+//
         
-        let sixth = HistoryLog()
-        sixth.time = "6 hours"
-        sixth.description = "A run"
-        sixth.distance = 2
-        
-        let seventh = HistoryLog()
-        seventh.time = "7 hours"
-        seventh.description = "A run"
-        seventh.distance = 1
-        
-        
-        return [first, second, third, fourth, fifth, sixth, seventh]
+        return [first, second, third, fourth]
     }
     // MARK: - Table view data source
 
@@ -79,11 +86,17 @@ class HistoryTableViewController: UITableViewController {
         
         let historyLog = historyLogs[indexPath.row]
         
-        cell.textLabel?.text = "\(historyLog.description) lasted \(historyLog.time). You ran \(historyLog.distance) miles."
+        cell.textLabel?.text = "\(historyLog.date) \(historyLog.description) lasted \(historyLog.time). You ran \(historyLog.distance) miles."
 
         return cell
+        
+//        super.viewDidLoad()
+//        self.tableView.backgroundColor = UIColor.lightGray
+//        func tableView(tableView: UITableView, willDisplayCell cell: UITableViewCell, forRowAtIndexPath indexPath: NSIndexPath) {
+//            cell.backgroundColor = UIColor.clear
+//        }
     }
-    
+//    let backgroundImage = UIImageView(image: UIIMage(named: "download-1"))
 
     /*
     // Override to support conditional editing of the table view.
