@@ -133,10 +133,6 @@
                                     <action selector="showPopUp:" destination="Rtx-Dh-kgW" eventType="touchUpInside" id="dXs-b0-RL0"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-08-03 at 9.40.04 PM" translatesAutoresizingMaskIntoConstraints="NO" id="6pG-q0-6nf">
-                                <rect key="frame" x="0.0" y="581" width="414" height="191"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8oB-B7-W0k">
                                 <rect key="frame" x="20" y="433" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -154,6 +150,10 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-08-04 at 1.51.22 AM" translatesAutoresizingMaskIntoConstraints="NO" id="SJS-G6-4Fy">
+                                <rect key="frame" x="20" y="530" width="374" height="283"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="5Wc-YD-nYL"/>
                         <color key="backgroundColor" red="0.59215688710000003" green="0.77254903320000001" blue="0.59607845540000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -560,7 +560,7 @@
     <resources>
         <image name="8E15479E-7C5E-4DAF-8907-A6F76F6EC103" width="840" height="870"/>
         <image name="Screen Shot 2022-08-02 at 11.06.12 AM" width="1780" height="1370"/>
-        <image name="Screen Shot 2022-08-03 at 9.40.04 PM" width="298" height="163"/>
+        <image name="Screen Shot 2022-08-04 at 1.51.22 AM" width="299" height="132"/>
         <image name="chart.xyaxis.line" catalog="system" width="128" height="101"/>
         <image name="download-1" width="286" height="176"/>
         <image name="image" width="349" height="280"/>
